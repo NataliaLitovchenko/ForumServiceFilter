@@ -19,7 +19,7 @@ import lombok.ToString;
 @Getter
 @EqualsAndHashCode(of= {"id"})
 @ToString
-@Document(collection = "ForumFilter")
+@Document(collection = "post")
 public class Post {
 	@Id
 	String id;//чтоб генерировальсь автоматически
